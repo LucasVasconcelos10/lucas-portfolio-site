@@ -26,34 +26,34 @@ export default function HomePage() {
           <Image alt="GitHub Logo" src="/logos/github-mark-white.png" width={100} height={100} className='w-full h-full' />
         </Link>
       </section>
-      <section id="Projects" className='w-full grid grid-rows-2 grid-cols-2 justify-items-center items-center my-14'>
+      <section id="Projects" className='w-full h-auto grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 justify-items-center items-center'>
         <Link
           href="https://github.com/LucasVasconcelos10/photography-salesman"
-          className='relative flex w-full h-full justify-items-center items-center m-10 transform transition-all duration-300 ease-in-out hover:scale-110'
+          className='relative flex w-1/2 h-full justify-center items-center transform transition-all duration-300 ease-in-out hover:border-green-700 hover:w-full border-2 border-purple-700 rounded-md'
           passHref={true}
         >
-          <Image alt="GitHub Logo" src="/logos/github-mark-white.png" width={100} height={100} className='w-full h-full' />
+          <Image alt="GitHub Logo" src="/logos/github-mark.png" width={100} height={100} className='w-full h-full' style={{'height':'auto', 'width':'auto'}}/>
         </Link>
         <Link
           href="https://github.com/LucasVasconcelos10/photography-salesman"
-          className='relative flex w-32 h-32 justify-items-center items-center m-10 transform transition-all duration-300 ease-in-out hover:scale-110 bg-white'
+          className='relative flex w-1/2 h-full justify-center items-center transform transition-all duration-300 ease-in-out hover:border-green-700 hover:w-full border-2 border-purple-700 rounded-md'
           passHref={true}
         >
-          <Image alt="GitHub Logo" src="/logos/github-mark-white.png" width={100} height={100} className='w-full h-full' />
+          <Image alt="GitHub Logo" src="/logos/github-mark.png" width={100} height={100} className='w-full h-full' style={{'height':'auto', 'width':'auto'}}/>
         </Link>
         <Link
           href="https://github.com/LucasVasconcelos10/photography-salesman"
-          className='relative flex w-32 h-32 justify-items-center items-center m-10 transform transition-all duration-300 ease-in-out hover:scale-110'
+          className='relative flex w-1/2 h-full justify-center items-center transform transition-all duration-300 ease-in-out hover:border-green-700 hover:w-full border-2 border-purple-700 rounded-md'
           passHref={true}
         >
-          <Image alt="GitHub Logo" src="/logos/github-mark-white.png" width={100} height={100} className='w-full h-full' />
+          <Image alt="GitHub Logo" src="/logos/github-mark.png" width={100} height={100} className='w-full h-full' style={{'height':'auto', 'width':'auto'}}/>
         </Link>
         <Link
           href="https://github.com/LucasVasconcelos10/photography-salesman"
-          className='relative flex w-32 h-32 justify-items-center items-center m-10 transform transition-all duration-300 ease-in-out hover:scale-110'
+          className='relative flex w-1/2 h-full justify-center items-center transform transition-all duration-300 ease-in-out hover:border-green-700 hover:w-full border-2 border-purple-700 rounded-md'
           passHref={true}
         >
-          <Image alt="GitHub Logo" src="/logos/github-mark-white.png" width={100} height={100} className='w-full h-full' />
+          <Image alt="GitHub Logo" src="/logos/github-mark.png" width={100} height={100} className='w-full h-full' style={{'height':'auto', 'width':'auto'}}/>
         </Link>
       </section>
       <section id="Contact" className='h-fit w-full justify-items-center items-center my-14'>
