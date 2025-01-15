@@ -1,5 +1,6 @@
 import "./globals.css";
-import Navbar from "./components/Navbar.js"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Head from 'next/head';
 
 export default function RootLayout({ children }) {
@@ -11,9 +12,10 @@ export default function RootLayout({ children }) {
         <meta property="title" content="Lucas's Landing" key="title" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-      <body className="w-full h-full">
+      <body className="w-full h-full font-mono">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
