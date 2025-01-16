@@ -25,7 +25,7 @@ export default function HomePage() {
 
   async function sendEmail(event) {
     event.preventDefault()
-    const response = await (await fetch("/api/sendEmail")).text()
+    const response = await (await fetch("/api/sendEmail")).json()
     console.log(response)
   }
 
