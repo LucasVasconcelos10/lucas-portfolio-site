@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import ModeToggle from '@/components/ModeToggle'
+import ModeToggle from '@/app/ponents/ModeToggle'
 
 export default function Navbar() {
     const [buttonStates, setButtonStates] = React.useState(() => generateBtnStates())

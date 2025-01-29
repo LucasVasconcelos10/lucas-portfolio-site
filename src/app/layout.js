@@ -2,7 +2,7 @@ import "./globals.css";
 import Navbar from "./ponents/Navbar";
 import Footer from "./ponents/Footer";
 import Head from 'next/head';
-import ThemeProvider from "../components/ThemeProvider";
+import ThemeProvider from "./ponents/ThemeProvider";
 
 export default function RootLayout({ children }) {
 

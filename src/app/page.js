@@ -1,6 +1,7 @@
 'use client'
 import ProjectCard from './ponents/ProjectCard';
 import ContactForm from './ponents/ContactForm';
+import { ProjectCarousel } from './ponents/ProjectCarousel';
 
 export default function HomePage() {
 
@@ -37,11 +38,12 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-      <section id="Projects" className='w-full h-auto grid grid-cols-4 place-items-center mb-20'>
+      <section id="Projects" className='flex w-auto h-auto mb-20 place-content-center'>
+        {/* <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' />
         <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' />
         <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' />
-        <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' />
-        <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' />
+        <ProjectCard projectLink='https://github.com/LucasVasconcelos10/photography-salesman' cardImgSrc='/logos/github-mark.png' cardImgAlt='Github Logo' /> */}
+        <ProjectCarousel/>
       </section>
       <section id="Contact" className='flex h-fit w-full justify-center mb-20'>
         <ContactForm />
