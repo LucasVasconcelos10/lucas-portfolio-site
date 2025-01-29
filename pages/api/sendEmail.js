@@ -1,5 +1,5 @@
 import { Resend } from 'resend';
-import EmailTemplate from '@/app/components/EmailTemplate';
+import EmailTemplate from '@/app/ponents/EmailTemplate';
 
 
 export default async function handler(req, res) {
